@@ -10,7 +10,7 @@ fi
 case $1 in
   dev)
     flutterfire config \
-      --project=flutter-ship-dev \
+      --project=flutter-ship-dev-5b68b \
       --out=lib/firebase_options_dev.dart \
       --ios-bundle-id=com.codewithandrea.flutterShipApp.dev \
       --ios-out=ios/flavors/dev/GoogleService-Info.plist \
@@ -19,7 +19,7 @@ case $1 in
     ;;
   stg)
     flutterfire config \
-      --project=flutter-ship-stg \
+      --project=flutter-ship-stg-974f1 \
       --out=lib/firebase_options_stg.dart \
       --ios-bundle-id=com.codewithandrea.flutterShipApp.stg \
       --ios-out=ios/flavors/stg/GoogleService-Info.plist \
@@ -28,7 +28,7 @@ case $1 in
     ;;
   prod)
     flutterfire config \
-      --project=flutter-ship-prod \
+      --project=fir-ship-prod-c057a \
       --out=lib/firebase_options_prod.dart \
       --ios-bundle-id=com.codewithandrea.flutterShipApp \
       --ios-out=ios/flavors/prod/GoogleService-Info.plist \
